@@ -1,0 +1,65 @@
+h1 { 
+	color: black;
+}
+body{
+	font-size: 90%;
+	font-family: 'Lucida Grande', Verdana, Arial, sans-serif;
+	background-color: rgb(3, 52, 118);
+	color: rgb(3, 52, 118);
+}
+
+.container{
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+}
+
+ .header,.content, .footer{
+ 	padding: 10px;
+ 	background-color: white;
+	margin: auto;
+	margin-bottom: 25px;
+	width: 800px;
+	border-left: : 3px;
+	border-style: solid;
+	text-align: center;
+}
+
+.header{
+	padding: 0;
+}
+
+.header ul{
+	list-style: none;
+}
+
+.header li{
+	display: inline;
+	margin-right: 25px;
+}
+
+.content{
+	height: 880px;
+	text-align: left;
+}
+
+.footer{
+	margin-bottom: 0px;
+
+}
+
+.footer ul{
+	list-style: none;
+}
+
+.footer li{
+	display: inline;
+}
+
+div{
+	border-radius: 1px;
+}
+
+
+
